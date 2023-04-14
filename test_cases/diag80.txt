@@ -1,0 +1,4 @@
+readme: line 2 is street, line 3 is house numbers, line 4 is expected lower boundary
+80
+1038,942,919,824,729,630,524,372
+5,4,4,3,2,1,115,117
