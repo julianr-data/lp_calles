@@ -8,7 +8,7 @@
 
 import os
 from funcs import *
-from tipos_de_calle import casos
+from street_types import casos
 
 class bcolors:
     OK = '\033[92m'
