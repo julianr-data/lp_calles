@@ -80,7 +80,7 @@ def diagonales_3(num):
 
 def decision(calle, casa):
     result = False
-    print("entre en la funcion decision")
+    print("entrando en la funcion de decision")
     if calle in casos.par1:
         result = paralelas_a_1(casa)
     elif calle in casos.par32:
@@ -92,6 +92,13 @@ def decision(calle, casa):
     elif calle in casos.diag3:
         result = diagonales_3(casa)
     else:
+        result = 0
         print("Calle no contenida dentro del algoritmo")
-    # print(f"El domicilio o edificio en cuestión se encuentra entre las calles {result} y {result+1}")
     return result
+
+def is_number(input_str):
+    try:
+        float(input_str)
+        return True
+    except ValueError:
+        return False
