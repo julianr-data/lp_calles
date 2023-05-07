@@ -1,1 +1,3 @@
-Simple navigation tool geared towards residents of La Plata (Argentina). Coded app, API, and simple Streamlit frontend (Python). Ran on Google Cloud.
+[Go to the app!](https://julianr-data-lp-calles-frontstreamlit-front-b4q4mp.streamlit.app/)
+
+La Plata is the capital of Buenos Aires province, Argentina. Though it is a small city, it stands out because of its fractal-esque design, in which both 'regular' streets and diagonal streets are given a number instead of a name. Because of this peculiarity, when given an address in a street + number format, it is possible to know between which streets to find said address. This is accomplished by performing a few simple mathematical operations. I coded an app to do so (which in itself is pretty simple), ran it in Google Cloud, exposed an API, and coded a simple frontend to access it.
